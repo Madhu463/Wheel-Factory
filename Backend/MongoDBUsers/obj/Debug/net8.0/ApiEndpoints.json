@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "MongoDBUsers.Controllers.LoginUsersController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/LoginUsers/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MongoDBUsers.Controllers.LoginUsersController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/LoginUsers/change-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payload",
+        "Type": "MongoDBUsers.Models.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MongoDBUsers.Controllers.LoginUsersController",
+    "Method": "GetUserRole",
+    "RelativePath": "api/LoginUsers/role/{userid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MongoDBUsers.Controllers.LoginUsersController",
+    "Method": "Validate",
+    "RelativePath": "api/LoginUsers/validate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "MongoDBUsers.Models.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

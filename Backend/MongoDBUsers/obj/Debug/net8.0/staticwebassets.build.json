@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "liUeyQuaTiVXQG8TqG9EjesjvXsB8oMIanN2TlBxn4w=",
+  "Source": "MongoDBUsers",
+  "BasePath": "_content/MongoDBUsers",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
