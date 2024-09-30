@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pulkit\\Desktop\\Full-Stackdev\\backend\\TheWheelFactory\\WheelProjectApiTest\\WheelProjectApiTest.csproj": {}
+    "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelProjectApiTest\\WheelProjectApiTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pulkit\\Desktop\\Full-Stackdev\\backend\\TheWheelFactory\\WheelFactory\\WheelFactory.csproj": {
+    "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\WheelFactory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pulkit\\Desktop\\Full-Stackdev\\backend\\TheWheelFactory\\WheelFactory\\WheelFactory.csproj",
+        "projectUniqueName": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\WheelFactory.csproj",
         "projectName": "WheelFactory",
-        "projectPath": "C:\\Users\\pulkit\\Desktop\\Full-Stackdev\\backend\\TheWheelFactory\\WheelFactory\\WheelFactory.csproj",
-        "packagesPath": "C:\\Users\\pulkit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pulkit\\Desktop\\Full-Stackdev\\backend\\TheWheelFactory\\WheelFactory\\obj\\",
+        "projectPath": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\WheelFactory.csproj",
+        "packagesPath": "C:\\Users\\tmadhushalini\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pulkit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tmadhushalini\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -112,21 +112,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\pulkit\\Desktop\\Full-Stackdev\\backend\\TheWheelFactory\\WheelProjectApiTest\\WheelProjectApiTest.csproj": {
+    "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelProjectApiTest\\WheelProjectApiTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pulkit\\Desktop\\Full-Stackdev\\backend\\TheWheelFactory\\WheelProjectApiTest\\WheelProjectApiTest.csproj",
+        "projectUniqueName": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelProjectApiTest\\WheelProjectApiTest.csproj",
         "projectName": "WheelProjectApiTest",
-        "projectPath": "C:\\Users\\pulkit\\Desktop\\Full-Stackdev\\backend\\TheWheelFactory\\WheelProjectApiTest\\WheelProjectApiTest.csproj",
-        "packagesPath": "C:\\Users\\pulkit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pulkit\\Desktop\\Full-Stackdev\\backend\\TheWheelFactory\\WheelProjectApiTest\\obj\\",
+        "projectPath": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelProjectApiTest\\WheelProjectApiTest.csproj",
+        "packagesPath": "C:\\Users\\tmadhushalini\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelProjectApiTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pulkit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tmadhushalini\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -141,8 +141,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\pulkit\\Desktop\\Full-Stackdev\\backend\\TheWheelFactory\\WheelFactory\\WheelFactory.csproj": {
-                "projectPath": "C:\\Users\\pulkit\\Desktop\\Full-Stackdev\\backend\\TheWheelFactory\\WheelFactory\\WheelFactory.csproj"
+              "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\WheelFactory.csproj": {
+                "projectPath": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\WheelFactory.csproj"
               }
             }
           }
@@ -211,7 +211,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

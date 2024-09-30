@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MongoDBUsers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c797f6d37353da085ef423104dfa1a26e5003622")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65a395c7b5570c3373476e8c9a471e7e62427c7c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MongoDBUsers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MongoDBUsers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

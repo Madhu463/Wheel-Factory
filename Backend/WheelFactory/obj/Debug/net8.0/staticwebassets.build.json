@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "f/vDw3F5eZT1f3eAlFayW83LbvIZbm9IPMV79f4L6ww=",
+  "Hash": "8XAgXIRoh6XRe4A/49fxbBKzDpgabvGpflA5rsHQA6w=",
   "Source": "WheelFactory",
   "BasePath": "_content/WheelFactory",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "WheelFactory\\wwwroot",
       "Source": "WheelFactory",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\client1.png",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\client1.png",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/client1.png",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\images\\client1.png"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\client2.png",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\client2.png",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/client2.png",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\images\\client2.png"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\client3.png",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\client3.png",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/client3.png",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\images\\client3.png"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\client4.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\client4.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/client4.jpg",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\images\\client4.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\download.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\download.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/download.jpg",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\images\\download.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\hash.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\hash.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/hash.jpg",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hash.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\kuamrrr.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\kuamrrr.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/kuamrrr.jpg",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\images\\kuamrrr.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\m1.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\m1.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/m1.jpg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\images\\m1.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\m2.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\m2.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/m2.jpg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\images\\m2.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\m3.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\m3.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/m3.jpg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\m3.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\manager.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\manager.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/manager.jpg",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\images\\manager.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\OIP.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\OIP.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/OIP.jpg",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\images\\OIP.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\pack.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\pack.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/pack.jpg",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pack.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\packaging.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\packaging.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/packaging.jpg",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\images\\packaging.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\paint.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\paint.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/paint.jpg",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\images\\paint.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\painting.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\painting.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/painting.jpg",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\images\\painting.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\raa.png",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\raa.png",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/raa.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\raa.png"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\red.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\red.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/red.jpg",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\images\\red.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\remanu.png",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\remanu.png",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/remanu.png",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\images\\remanu.png"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\sold.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\sold.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/sold.jpg",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sold.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\soldering.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\soldering.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/soldering.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\images\\soldering.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\test.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\test.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/test.jpg",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\images\\test.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\test4.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\test4.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/test4.jpg",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\images\\test4.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\tom.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\tom.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/tom.jpg",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\images\\tom.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\vghgfh.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\vghgfh.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/vghgfh.jpg",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vghgfh.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\web-testing-1184x789.jpg",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\web-testing-1184x789.jpg",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/web-testing-1184x789.jpg",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\images\\web-testing-1184x789.jpg"
     },
     {
-      "Identity": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\images\\wheel.png",
+      "Identity": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\images\\wheel.png",
       "SourceId": "WheelFactory",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\wwwroot\\",
       "BasePath": "_content/WheelFactory",
       "RelativePath": "images/wheel.png",
       "AssetKind": "All",

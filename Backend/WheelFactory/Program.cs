@@ -37,7 +37,7 @@ namespace WheelFactory
             builder.Services.AddControllers();
             var logger = new LoggerConfiguration()
             .WriteTo
-            .File("C:\\Users\\pulkit\\Desktop\\WheelFactory\\Backend\\backend\\TheWheelFactory\\WheelFactory\\Logs\\WheelFactoryLogs.txt", rollingInterval: RollingInterval.Day)
+            .File("C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\Logs\\WheelFactoryLogs20240928.txt", rollingInterval: RollingInterval.Day)
             .CreateLogger();
             builder.Services.AddSerilog(logger);
 

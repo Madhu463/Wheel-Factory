@@ -66,9 +66,9 @@ const Home = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-8 bg-gray-800">
         {[
-          { title: "INVENTORY MANAGEMENT", image: "public/bg-images/inventory1.png" },
-          { title: "SOLDERING AND SANDBLASTING", image: "public/bg-images/car2.jpg" },
-          { title: "PACKAGING AND DELIVERY", image: "public/bg-images/remanu.png" },
+          { title: "INVENTORY MANAGEMENT", image: "public/bg-images/invent.jpg" },
+          { title: "SANDBLASTING AND PAINTING", image: "public/bg-images/remanu.png" },
+          { title: "PACKAGING AND DELIVERY", image: "public/bg-images/pack.jpg" },
 
         ].map((item, index) => (
           <>

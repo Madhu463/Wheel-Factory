@@ -8617,19 +8617,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pulkit\\.nuget\\packages\\": {}
+    "C:\\Users\\tmadhushalini\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pulkit\\Desktop\\Full-Stackdev\\backend\\TheWheelFactory\\WheelFactory\\WheelFactory.csproj",
+      "projectUniqueName": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\WheelFactory.csproj",
       "projectName": "WheelFactory",
-      "projectPath": "C:\\Users\\pulkit\\Desktop\\Full-Stackdev\\backend\\TheWheelFactory\\WheelFactory\\WheelFactory.csproj",
-      "packagesPath": "C:\\Users\\pulkit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pulkit\\Desktop\\Full-Stackdev\\backend\\TheWheelFactory\\WheelFactory\\obj\\",
+      "projectPath": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\WheelFactory.csproj",
+      "packagesPath": "C:\\Users\\tmadhushalini\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\WheelFactory\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pulkit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tmadhushalini\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8727,7 +8727,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

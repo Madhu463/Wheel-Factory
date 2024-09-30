@@ -131,7 +131,8 @@ const Packaging = () => {
         <div className="md:w-1/2  p-4 bg-gray-50">
           <div className="flex items-center mb-8">
             <div className="bg-gray-300 rounded-full h-20 w-20 flex items-center justify-center text-3xl text-gray-600">
-              PG
+            <img className="bg-gray-400 rounded-full h-25 w-25 flex items-center justify-center text-3xl text-gray-600"
+         src="public/bg-images/profile.jpg"/>
             </div>
             <div className="ml-4">
               <h2 className="text-2xl font-extrabold text-gray-900">WORKER4-PACKAGING</h2>
@@ -139,18 +140,18 @@ const Packaging = () => {
             </div>
           </div>
           <div className="space-y-4">
-            <div>
-              <p className="text-m uppercase tracking-wide text-gray-600 font-semibold">Role</p>
-              <p className="mt-1 text-lg font-medium text-gray-900">Packaging Technician</p>
-            </div>
-            <div>
-              <p className="text-m uppercase tracking-wide text-gray-600 font-semibold">ID</p>
-              <p className="mt-1 text-lg font-medium text-gray-900">Worker004</p>
-            </div>
-            <div>
-              <p className="text-m uppercase tracking-wide text-gray-600 font-semibold">Type of Work</p>
-              <p className="mt-1 text-lg font-medium text-gray-900">Full-time</p>
-            </div>
+  <div className="">
+    <p className="text-sm uppercase text-lg text-gray-900 font-bold">Role:</p>
+    <p className="mt-1 text-md font-medium text-gray-700">Packaging Technician</p>
+  </div>
+  <div className="">
+    <p className="text-sm uppercase  text-lg text-gray-900 font-bold">ID:</p>
+    <p className="mt-1 text-md font-medium text-gray-700">Worker004</p>
+  </div>
+  <div className="">
+    <p className="text-sm uppercase text-lg text-gray-900 font-bold">Type of Work:</p>
+    <p className="mt-1 text-md font-medium text-gray-700">Full-time</p>
+  </div>
           </div>
         </div>
 
@@ -231,7 +232,7 @@ const Packaging = () => {
 
             <button
               type="submit"
-              className="border border-gray-300 font-bold text-white p-2 rounded-md shadow-sm bg-black px-4 py-2"
+              className="bg-red-500 text-white font-semibold py-2 px-4 rounded hover:bg-gray-600"
               onClick={() => navigate(`/Workers/${role} `)}>
               Cancel
             </button>

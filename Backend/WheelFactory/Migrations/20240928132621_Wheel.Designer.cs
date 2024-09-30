@@ -12,7 +12,7 @@ using WheelFactory.Models;
 namespace WheelFactory.Migrations
 {
     [DbContext(typeof(WheelContext))]
-    [Migration("20240919125230_Wheel")]
+    [Migration("20240928132621_Wheel")]
     partial class Wheel
     {
         /// <inheritdoc />
@@ -88,7 +88,7 @@ namespace WheelFactory.Migrations
 
                     b.ToTable("OrderDetails", t =>
                         {
-                            t.HasTrigger("trigger_log");
+                            t.HasTrigger("triggers_log");
                         });
 
                     b.HasAnnotation("SqlServer:UseSqlOutputClause", false);

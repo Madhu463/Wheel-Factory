@@ -16,6 +16,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WheelProjectApiTest
-build_property.ProjectDir = C:\Users\pulkit\Desktop\Full-Stackdev\backend\TheWheelFactory\WheelProjectApiTest\
+build_property.ProjectDir = C:\Users\tmadhushalini\Desktop\WheelFactory\Wheel-Factory\Backend\WheelProjectApiTest\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

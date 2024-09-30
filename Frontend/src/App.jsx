@@ -13,7 +13,6 @@ import NotFound from './pages/notfound/NotFound';
 function App() {
   return (
     <>
-    
      <Router>
       <Routes>
      
@@ -34,5 +33,6 @@ function App() {
    </>
   )
 }
-
+ 
 export default App
+ 

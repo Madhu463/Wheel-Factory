@@ -59,7 +59,7 @@ export const Login = () => {
           </div>
           <div className="flex w-full md:w-1/2 flex-col justify-center gap-6 p-8 md:p-12">
             <div className="space-y-2 border text-white rounded-md p-2">
-              <h1 className="text-3xl font-bold">Welcome back!</h1>
+              <h1 className="text-3xl font-bold">Welcome User!</h1>
               <p className="text-muted-foreground text-white">Enter your credentials to access your account.</p>
             </div>
             <form className="space-y-4" onSubmit={handleLogin}>
@@ -77,12 +77,12 @@ export const Login = () => {
               <div className="space-y-2">
                 <div className="flex items-center justify-between font-bold">
                   <label htmlFor="password">Password</label>
-                  <a
+                  {/* <a
                     href="#"
                     className="text-sm font-medium underline underline-offset-4 hover:cursor-pointer"
                   >
                     Forgot password?
-                  </a>
+                  </a> */}
                 </div>
                 <input
                   id="password"

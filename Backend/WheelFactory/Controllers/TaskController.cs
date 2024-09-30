@@ -12,7 +12,7 @@ namespace WheelFactory.Controllers
     [Authorize]
     public class TaskController : ControllerBase
     {
-        private readonly string _basePath = @"C:\Users\pulkit\Desktop\WheelFactory\Backend\backend\TheWheelFactory\WheelFactory\wwwroot\images\";
+        private readonly string _basePath = @"C:\Users\tmadhushalini\Desktop\WheelFactory\Wheel-Factory\Backend\WheelFactory\wwwroot\images\";
         private readonly ITaskService _task;
         private readonly IOrdersService _orders;
         private readonly WheelContext _wc;

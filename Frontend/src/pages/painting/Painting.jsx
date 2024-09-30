@@ -145,26 +145,27 @@ const Painting = () => {
         <div className="md:w-1/2 p-4 bg-gray-50">
           <div className="flex items-center mb-8">
             <div className="bg-gray-300 rounded-full h-20 w-20 flex items-center justify-center text-3xl text-gray-600">
-              PT
+            <img className="bg-gray-400 rounded-full h-25 w-25 flex items-center justify-center text-3xl text-gray-600"
+         src="public/bg-images/profile.jpg"/>
             </div>
             <div className="ml-4">
-              <h2 className="text-2xl font-extrabold text-gray-900">WORKER2-PAINTING</h2>
+              <h2 className="text-2xl font-extrabold text-gray-900">WORKER3-PAINTING</h2>
               <p className="text-sm text-gray-650">Painting</p>
             </div>
           </div>
           <div className="space-y-4">
-            <div>
-              <p className="text-m uppercase tracking-wide text-gray-600 font-semibold">Role</p>
-              <p className="mt-1 text-lg font-medium text-gray-900">Painting Technician</p>
-            </div>
-            <div>
-              <p className="text-m uppercase tracking-wide text-gray-600 font-semibold">ID</p>
-              <p className="mt-1 text-lg font-medium text-gray-900">Worker003</p>
-            </div>
-            <div>
-              <p className="text-m uppercase tracking-wide text-gray-600 font-semibold">Type of Work</p>
-              <p className="mt-1 text-lg font-medium text-gray-900">Full-time</p>
-            </div>
+  <div className="">
+    <p className="text-sm uppercase text-lg text-gray-900 font-bold">Role:</p>
+    <p className="mt-1 text-md font-medium text-gray-700">Painting Technician</p>
+  </div>
+  <div className="">
+    <p className="text-sm uppercase  text-lg text-gray-900 font-bold">ID:</p>
+    <p className="mt-1 text-md font-medium text-gray-700">Worker003</p>
+  </div>
+  <div className="">
+    <p className="text-sm uppercase text-lg text-gray-900 font-bold">Type of Work:</p>
+    <p className="mt-1 text-md font-medium text-gray-700">Full-time</p>
+  </div>
           </div>
         </div>
 
@@ -231,7 +232,6 @@ const Painting = () => {
                 <p className="text-red-500">{formik.errors.typeOfPaint}</p>
               )}
             </div>
-
             <div>
               <label className="text-lg font-bold text-black">Notes:</label>
               <textarea
@@ -244,7 +244,6 @@ const Painting = () => {
                 <p className="text-red-500">{formik.errors.notes}</p>
               )}
             </div>
-
             <div>
               <label className="text-lg font-bold text-black">Upload Image:</label>
               <input
@@ -271,7 +270,7 @@ const Painting = () => {
 
             <button
               type="submit"
-              className="border border-gray-300 font-bold text-white p-2 rounded-md shadow-sm bg-black px-4 py-2"
+              className="bg-red-500 text-white font-semibold py-2 px-4 rounded hover:bg-gray-600"
               onClick={() => navigate(`/Workers/${role} `)}>
               Cancel
             </button>

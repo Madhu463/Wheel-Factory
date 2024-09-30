@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pulkit\\Desktop\\Full-Stackdev\\backend\\TheWheelFactory\\MongoDBUsers\\MongoDBUsers.csproj": {}
+    "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\MongoDBUsers\\MongoDBUsers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pulkit\\Desktop\\Full-Stackdev\\backend\\TheWheelFactory\\MongoDBUsers\\MongoDBUsers.csproj": {
+    "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\MongoDBUsers\\MongoDBUsers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pulkit\\Desktop\\Full-Stackdev\\backend\\TheWheelFactory\\MongoDBUsers\\MongoDBUsers.csproj",
+        "projectUniqueName": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\MongoDBUsers\\MongoDBUsers.csproj",
         "projectName": "MongoDBUsers",
-        "projectPath": "C:\\Users\\pulkit\\Desktop\\Full-Stackdev\\backend\\TheWheelFactory\\MongoDBUsers\\MongoDBUsers.csproj",
-        "packagesPath": "C:\\Users\\pulkit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pulkit\\Desktop\\Full-Stackdev\\backend\\TheWheelFactory\\MongoDBUsers\\obj\\",
+        "projectPath": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\MongoDBUsers\\MongoDBUsers.csproj",
+        "packagesPath": "C:\\Users\\tmadhushalini\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tmadhushalini\\Desktop\\WheelFactory\\Wheel-Factory\\Backend\\MongoDBUsers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pulkit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tmadhushalini\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

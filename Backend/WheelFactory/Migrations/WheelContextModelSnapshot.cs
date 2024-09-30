@@ -85,7 +85,7 @@ namespace WheelFactory.Migrations
 
                     b.ToTable("OrderDetails", t =>
                         {
-                            t.HasTrigger("trigger_log");
+                            t.HasTrigger("triggers_log");
                         });
 
                     b.HasAnnotation("SqlServer:UseSqlOutputClause", false);

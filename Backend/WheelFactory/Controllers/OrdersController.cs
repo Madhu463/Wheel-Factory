@@ -10,7 +10,7 @@ namespace WheelFactory.Controllers
     [Authorize]
     public class OrdersController : ControllerBase
     {
-        private readonly string _basePath = @"C:\Users\pulkit\Desktop\WheelFactory\Backend\backend\TheWheelFactory\WheelFactory\wwwroot\images\";
+        private readonly string _basePath = @"C:\Users\tmadhushalini\Desktop\WheelFactory\Wheel-Factory\Backend\WheelFactory\wwwroot\images\";
         private readonly IOrdersService _order;
         private readonly WheelContext _wheelContext;
 
