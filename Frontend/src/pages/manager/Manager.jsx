@@ -418,11 +418,11 @@ const ManagerDashboard = () => {
             <button
               key={item.id}
               className={`w-full mb-2 text-center font-semibold rounded-md text-white px-4 py-2 ml-3 mr-3 transition-colors hover:bg-gray-900 hover:text-white  ${activeMenuItem === item.id
-                  ? `border-green-300 bg-gray-900 text-white`
-                  : "bg-gray-800"
+                ? `border-green-300 bg-gray-900 text-white`
+                : "bg-gray-800"
                 } border-2  p-4 `
               }
-              style={{ width: "230px", height: "40px" }}
+              style={{ width: "180px", height: "40px" }}
               onClick={(e) => {
                 e.preventDefault();
                 if (item.id === "add") {
@@ -436,8 +436,8 @@ const ManagerDashboard = () => {
             </button>
           ))}
         </nav>
-        <br/>
-        <img className="mt-10 "src="public/bg-images/manager.webp"/>
+        <br />
+        {/* <img className="mt-10 "src="public/bg-images/manager.webp"/> */}
       </div>
 
       <main className="flex-1 overflow-x-hidden overflow-y-auto rounded bg-gray-300">
@@ -570,7 +570,7 @@ const ManagerDashboard = () => {
               </div>
             </div>
           )}
-          
+
           {isCModalOpen && viewCompletedDetails && (
             <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
               <div className="bg-blue-200 p-6 rounded-lg shadow-xl w-full max-w-2xl max-h-[90vh] overflow-y-auto relative">
@@ -657,7 +657,7 @@ const ManagerDashboard = () => {
 
           {showAddModal && (
             <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
-              <div className="bg-blue-200 p-6 rounded-lg shadow-xl w-full max-w-3xl">
+              <div className="bg-blue-100 p-6 rounded-lg shadow-xl w-full max-w-3xl">
                 <h2 className="text-2xl font-bold mb-4">Add New Order</h2>
                 <form
                   onSubmit={formik.handleSubmit}
@@ -816,7 +816,7 @@ const ManagerDashboard = () => {
                         </div>
                       ) : null}
                     </div>
-                    <div>
+                    {/* <div>
                       <label
                         htmlFor="imageUrl"
                         className="block text-m font-medium text-gray-900 mt-4"
@@ -837,7 +837,49 @@ const ManagerDashboard = () => {
                           {formik.errors.imageUrl}
                         </div>
                       ) : null}
-                    </div>
+                    </div> */}
+                    <div>
+  <label
+    htmlFor="imageUrl"
+    className="block text-m font-medium text-gray-900 mt-4"
+  >
+    Image
+  </label>
+  <input
+    id="imageUrl"
+    name="imageUrl"
+    type="file"
+    onChange={(event) => {
+      formik.setFieldValue("imageUrl", event.currentTarget.files[0]);
+    }}
+    className="hidden" // Hide the default file input
+  />
+  
+  <div
+    role="button"
+    className="cursor-pointer  bg-white hover:bg-white p-2 rounded-md transition duration-300 ease-in-out flex items-center"
+    onClick={() => document.getElementById('imageUrl').click()} // Trigger the file input
+    aria-label="Upload Image"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className="size-6 w-10 h-10" // Adjust size as needed
+    >
+      <path d="M11.47 1.72a.75.75 0 0 1 1.06 0l3 3a.75.75 0 0 1-1.06 1.06l-1.72-1.72V7.5h-1.5V4.06L9.53 5.78a.75.75 0 0 1-1.06-1.06l3-3ZM11.25 7.5V15a.75.75 0 0 0 1.5 0V7.5h3.75a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-9a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h3.75Z" />
+    </svg>
+    <span className="ml-2 text-serif font-semibold">Upload Image</span>
+   
+  </div>
+  
+  {formik.touched.imageUrl && formik.errors.imageUrl ? (
+    <div className="text-red-500 text-sm mt-1">
+      {formik.errors.imageUrl}
+    </div>
+  ) : null}
+</div>
+
                   </div>
                   {/* Buttons between the sections */}
                   <div className="mt-6 col-span-2 flex justify-center space-x-4">
@@ -926,25 +968,25 @@ const CurrentOrders = ({
           </select>
         </div>
 
-        {/* Status Cards */}
-        <div className="col-span-4 grid grid-cols-4 gap-4">
-        <div className="bg-purple-100 p-4 rounded-lg shadow-lg text-center">
+        <div className="col-span-4 grid grid-cols-4 gap-3">
+          <div className="bg-purple-100 p-2 rounded-lg shadow-lg text-center" style={{ width: '150px', height: '70px' }}>
             <h3 className="text-lg font-bold">Inventory</h3>
             <p className="text-2xl">{shippedOrders.length}</p>
           </div>
-          <div className="bg-blue-100 p-4 rounded-lg shadow-lg text-center">
+          <div className="bg-blue-100 p-2 rounded-lg shadow-lg text-center" style={{ width: '150px', height: '70px' }}>
             <h3 className="text-lg font-bold">Soldering</h3>
             <p className="text-2xl">{solderingOrders.length}</p>
           </div>
-          <div className="bg-yellow-100 p-4 rounded-lg shadow-lg text-center">
+          <div className="bg-yellow-100 p-2 rounded-lg shadow-lg text-center" style={{ width: '150px', height: '70px' }}>
             <h3 className="text-lg font-bold">Painting</h3>
             <p className="text-2xl">{paintingOrders.length}</p>
           </div>
-          <div className="bg-green-100 p-4 rounded-lg shadow-lg text-center">
+          <div className="bg-green-100 p-2 rounded-lg shadow-lg text-center" style={{ width: '150px', height: '70px' }}>
             <h3 className="text-lg font-bold">Packaging</h3>
             <p className="text-2xl">{packagingOrders.length}</p>
           </div>
         </div>
+
       </div>
 
       {/* Orders Table */}
@@ -1002,16 +1044,12 @@ const CurrentOrders = ({
   );
 };
 
-const CompletedOrders = ({
-  completedOrders,
-  viewCompletedDetails,
-  setViewOrderDetails
-}) => {
+const CompletedOrders = ({ completedOrders, viewCompletedDetails, setViewOrderDetails }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [searchOrderId, setSearchOrderId] = useState("");
   const ordersPerPage = 10;
 
-  function formatTimestampToDate(timestamp) {
+  const formatTimestampToDate = (timestamp) => {
     let date = new Date(timestamp);
     let day = date.getDate();
     let month = date.getMonth() + 1;
@@ -1019,77 +1057,128 @@ const CompletedOrders = ({
     day = day < 10 ? "0" + day : day;
     month = month < 10 ? "0" + month : month;
     return `${day}-${month}-${year}`;
-  }
+  };
 
   const filteredOrders = completedOrders.filter(
-    (order) =>
-      !searchOrderId || order.orderId.toString().includes(searchOrderId)
+    (order) => !searchOrderId || order.orderId.toString().includes(searchOrderId)
   );
 
   const indexOfLastOrder = currentPage * ordersPerPage;
   const indexOfFirstOrder = indexOfLastOrder - ordersPerPage;
-  const currentOrdersPage = filteredOrders.slice(
-    indexOfFirstOrder,
-    indexOfLastOrder
-  );
-
+  const currentOrdersPage = filteredOrders.slice(indexOfFirstOrder, indexOfLastOrder);
   const totalPages = Math.ceil(filteredOrders.length / ordersPerPage);
 
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
   };
 
+  const fetchCompleteDetails = async (orderId) => {
+    try {
+      const token = localStorage.getItem("token");
+      const endpoints = [
+        `http://localhost:5041/api/Orders/${orderId}`,
+        `http://localhost:5041/api/task/soldering/${orderId}`,
+        `http://localhost:5041/api/task/painting/${orderId}`,
+        `http://localhost:5041/api/Task/packaging/${orderId}`,
+      ];
+
+      const responses = await Promise.all(endpoints.map(url => fetch(url, {
+        headers: { Authorization: `Bearer ${token}` }
+      })));
+
+      const data = await Promise.all(responses.map(res => res.json()));
+      generatePDF(data);
+    } catch (error) {
+      console.error('Error fetching completed details:', error);
+    }
+  };
+
+  const generatePDF = (data) => {
+    const doc = new jsPDF();
+    doc.text('Completed Order Details', 14, 16);
+    doc.setFont("helvetica", "normal"); // Set font style
+    doc.setFontSize(12); // Set font size
+    let y = 30; // Starting vertical position for text
+    const lineHeight = 10; // Space between lines
+    const pageHeight = doc.internal.pageSize.height; // Get the height of the page
+
+    // Define headers for each endpoint
+    const endpointHeaders = [
+      'Order Details',
+      'Soldering Details',
+      'Painting Details',
+      'Packaging Details',
+    ];
+
+    // Loop through each endpoint's data
+    data.forEach((item, index) => {
+      // Print section header
+      doc.text(endpointHeaders[index], 14, y);
+      y += lineHeight; // Move down for the next line
+
+      // Format and print the details for the current endpoint
+      const details = JSON.stringify(item, null, 2); // Format details nicely
+      const lines = details.split('\n'); // Split into lines
+
+      lines.forEach(line => {
+        if (y + lineHeight > pageHeight) {
+          doc.addPage(); // Add a new page if the current page is full
+          y = 10; // Reset y position for the new page
+        }
+        doc.text(line, 20, y); // Indent nested lines for readability
+        y += lineHeight; // Move down for each line
+      });
+
+      y += lineHeight; // Add extra space between endpoint sections
+
+      if (y + lineHeight > pageHeight) {
+        doc.addPage(); // Add a new page if the current page is full
+        y = 10; // Reset y position for the new page
+      }
+    });
+
+    doc.save('completed_order_details.pdf');
+  };
+
 
   return (
     <div className="overflow-x-auto bg-white shadow-md rounded-lg p-6 mt-8">
-      <h2 className="text-2xl font-bold mb-6 text-gray-800 ">
+      <h2 className="text-2xl font-bold mb-6 text-gray-800">
         Completed Orders
       </h2>
       <div className="mb-6 flex space-x-4">
-      <div className="rounded-lg  px-6 py-2">
-        <input
-          type="text"
-          placeholder="Search by Order ID"
-          className="border border-gray-600 p-2 rounded-md text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
-          value={searchOrderId}
-          onChange={(e) => setSearchOrderId(e.target.value)}
-        />
+        <div className="rounded-lg px-6 py-2">
+          <input
+            type="text"
+            placeholder="Search by Order ID"
+            className="border border-gray-600 p-2 rounded-md text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            value={searchOrderId}
+            onChange={(e) => setSearchOrderId(e.target.value)}
+          />
         </div>
-         <div className="bg-blue-100 text-gray-900  font-bold rounded-lg shadow-md px-8 py-5">
-          <span className="font-bold">Number Of CompletedOrders:</span> {filteredOrders.length}
+        <div className="bg-blue-100 text-gray-900 font-bold rounded-lg shadow-md px-8 py-5">
+          <span className="font-bold">Number Of Completed Orders:</span> {filteredOrders.length}
         </div>
       </div>
-     
+
       <table className="min-w-full divide-y divide-gray-200 table-auto w-full text-left border-collapse">
         <thead>
           <tr className="bg-gray-200">
-            <th className="px-6 py-3 text-left text-l font-semibold text-black  font-serif">
-              Order ID
-            </th>
-            <th className="px-6 py-3 text-left text-l font-semibold text-black  font-serif">
-              ClientName
-            </th>
-            <th className="px-6 py-3 text-left text-l font-semibold text-black  font-serif">
-              Completion Date
-            </th>
-            <th className="px-6 py-3 text-left text-l font-semibold text-black   font-serif">
-              Actions
-            </th>
+            <th className="px-6 py-3 text-left text-l font-semibold text-black font-serif">Order ID</th>
+            <th className="px-6 py-3 text-left text-l font-semibold text-black font-serif">Client Name</th>
+            <th className="px-6 py-3 text-left text-l font-semibold text-black font-serif">Completion Date</th>
+            <th className="px-6 py-3 text-left text-l font-semibold text-black font-serif">Actions</th>
+            <th className="px-6 py-3 text-left text-l font-semibold text-black font-serif">Downloadpdf</th>
+
           </tr>
         </thead>
         <tbody className="bg-white divide-y divide-gray-200">
           {currentOrdersPage.map((order) => (
             <tr key={order.orderId} className="hover:bg-gray-50">
-              <td className="px-10 py-4 whitespace-nowrap text-m font-bold text-gray-900">
-                {order.orderId}
-              </td>
-              <td className="px-6 py-4 whitespace-nowrap text-m  text-gray-900 ">
-                {order.clientName}
-              </td>
-              <td className="px-6 py-4 whitespace-nowrap text-m  text-gray-900">
-                {formatTimestampToDate(order.createdAt)}
-              </td>
-              <td className="px-6 py-4 whitespace-nowrap text-m text-black ">
+              <td className="px-10 py-4 whitespace-nowrap text-m font-bold text-gray-900">{order.orderId}</td>
+              <td className="px-6 py-4 whitespace-nowrap text-m text-gray-900">{order.clientName}</td>
+              <td className="px-6 py-4 whitespace-nowrap text-m text-gray-900">{formatTimestampToDate(order.createdAt)}</td>
+              <td className="px-6 py-4 whitespace-nowrap text-m text-black">
                 <button
                   type="button"
                   className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-4 py-2 rounded-md transition duration-300 ease-in-out"
@@ -1098,6 +1187,29 @@ const CompletedOrders = ({
                   View Details
                 </button>
               </td>
+
+              <td className="px-6 py-4 whitespace-nowrap text-m text-black">
+                <div
+                  role="button"
+                  className="cursor-pointer hover:bg-blue-100 p-2 pl-8 rounded-md transition duration-300 ease-in-out"
+                  onClick={() => fetchCompleteDetails(order.orderId)}
+                  aria-label="Download PDF"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="size-6 w-8 h-10" // Adjust size as needed
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M19.5 21a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3h-5.379a.75.75 0 0 1-.53-.22L11.47 3.66A2.25 2.25 0 0 0 9.879 3H4.5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h15Zm-6.75-10.5a.75.75 0 0 0-1.5 0v4.19l-1.72-1.72a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l3-3a.75.75 0 1 0-1.06-1.06l-1.72 1.72V10.5Z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </td>
+
             </tr>
           ))}
         </tbody>
@@ -1105,7 +1217,7 @@ const CompletedOrders = ({
 
       <div className="mt-6 flex justify-between items-center">
         <button
-          className="px-4 py-2 bg-red-400 text-black font-semibold rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-900 "
+          className="px-4 py-2 bg-red-400 text-black font-semibold rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-900"
           onClick={() => handlePageChange(currentPage - 1)}
           disabled={currentPage === 1}
         >
@@ -1115,7 +1227,7 @@ const CompletedOrders = ({
           Page {currentPage} of {totalPages}
         </span>
         <button
-          className="px-4 py-2 bg-green-600 text-white font-semibold rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-900 "
+          className="px-4 py-2 bg-green-600 text-white font-semibold rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-900"
           onClick={() => handlePageChange(currentPage + 1)}
           disabled={currentPage === totalPages}
         >
@@ -1125,6 +1237,7 @@ const CompletedOrders = ({
     </div>
   );
 };
+
 
 const ScrappedOrdersTable = ({ scrappedOrders, setViewOrderDetails }) => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -1176,7 +1289,7 @@ const ScrappedOrdersTable = ({ scrappedOrders, setViewOrderDetails }) => {
           value={searchOrderId}
           onChange={(e) => setSearchOrderId(e.target.value)}
         />
-         <div className="bg-blue-100 text-gray-900 font-bold  rounded-lg shadow-md px-8 py-5">
+        <div className="bg-blue-100 text-gray-900 font-bold  rounded-lg shadow-md px-8 py-5">
           <span className="font-bold">Number Of ScrappedOrders:</span> {filteredOrders.length}
         </div>
       </div>
